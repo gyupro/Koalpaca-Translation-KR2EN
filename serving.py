@@ -10,7 +10,7 @@ MODEL = 'gyupro/Koalpaca-Translation-KR2EN'
 model = AutoModelForCausalLM.from_pretrained(
     MODEL,
     torch_dtype=torch.float16,
-    device_map='auto'
+    device_map='cuda:0'
   
 )
 
