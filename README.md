@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```bash
 python serving.py
 ```
-위의 파이썬 커맨드 실행 후, localhost:7860으로 들어가시면 gradio 채팅 앱이 보일껍니다. 입력문장에 한글을 입력하시고, 엔터를 누르시면 번역된 결과를 보실수 있습니다.
+위의 파이썬 커맨드 실행 후, [http://localhost:7860](http://localhost:7860)으로 들어가시면 gradio 채팅 앱이 보일껍니다. 입력문장에 한글을 입력하시고, 엔터를 누르시면 번역된 결과를 보실수 있습니다.
 
 ![image](https://github.com/gyupro/Koalpaca-Translation-KR2EN/assets/79894531/9f2cb1df-78de-4433-b9fc-f425fc4519dd)
 
