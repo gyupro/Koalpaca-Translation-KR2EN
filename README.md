@@ -8,11 +8,14 @@
 
 ## 설치 및 실행
 
-필요한 라이브러리 설치.
+필요한 라이브러리 설치
 ```bash
+git clone https://github.com/gyupro/Koalpaca-Translation-KR2EN.git
+cd Koalpaca-Translation-KR2EN
 pip install -r requirements.txt
 ```
-```python
+실행
+```bash
 python serving.py
 ```
 
