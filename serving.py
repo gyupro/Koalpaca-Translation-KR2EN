@@ -3,7 +3,7 @@ import gradio as gr
 import torch
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
 
-MODEL = 'ko_en'
+MODEL = 'gyupro/Koalpaca-Translation-KR2EN'
 
 
 
