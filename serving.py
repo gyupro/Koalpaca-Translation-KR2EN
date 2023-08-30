@@ -1,6 +1,4 @@
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-
 import gradio as gr
 import torch
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
@@ -22,7 +20,6 @@ pipe = pipeline(
     "text-generation",
     model=model,
     tokenizer=AutoTokenizer.from_pretrained(MODEL),
-    # device=2,
 )
 
 
