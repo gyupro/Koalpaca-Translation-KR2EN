@@ -1,5 +1,20 @@
 # Koalpaca-Translation-KR2EN
 
+[데모](http://210.105.193.76:7861/)
+
+데모는 잠시 열어둘 예정이고, 언제닫힐지 모릅니다.
+
+## 설치 및 실행
+
+필요한 라이브러리 설치.
+```bash
+pip install -r requirements.txt
+```
+```python
+python serving.py
+```
+
+필요한 모델 & 토크나이저는 자동으로 다운됩니다.
 
 ## 데이터셋
 
