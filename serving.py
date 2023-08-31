@@ -29,7 +29,7 @@ def answer(state, state_chatbot, text):
     ans = pipe(
         f"### source: {text}\n\n### target:",
         do_sample=False,
-        max_new_tokens=512,
+        max_new_tokens=2048,
         temperature=0.7,
         top_p=0.9,
         return_full_text=False,
