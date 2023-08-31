@@ -41,4 +41,6 @@ Train 폴더에 있는 데이터만 사용했으며, 데이터셋을 전처리�
 ## 학습
 
 학습은 위의 KO_TO_EN과 EN_TO_KO를 모두 source KO target EN으로 학습시켰으며, Koalpaca의 run_tensor_parellel.py파일을 사용했습니다.
+사용된 모델은 polyglot 5.8B입니다.
+
 
