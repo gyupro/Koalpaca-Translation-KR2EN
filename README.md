@@ -9,7 +9,7 @@
 - Ubuntu 20.04
 - pytorch 2.1.1
 
-V100 기준 GPU VRAM 사용량 : 18GB
+V100 기준 GPU VRAM 사용량 : 12GB
 
 ## 설치 및 실행
 
